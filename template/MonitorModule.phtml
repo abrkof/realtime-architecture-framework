@@ -1,0 +1,11 @@
+<?
+if ($view->data) : ?>
+<? if ($view->requestType == \RTA\App::SYNCHRONOUS) : ?>
+<div class="widget monitor">
+    <h2>Memory Usage Demo</h2>
+    <img src="http://chart.apis.google.com/chart?chs=240x180&cht=p3&chco=224499&chdlp=b<?= $view->data ?>" width="240" height="180" alt="" />
+</div>
+<? else: ?>
+http://chart.apis.google.com/chart?chs=240x180&cht=p3&chco=224499&chdlp=b<?= $view->data ?>
+<? endif; ?>
+<? endif; ?>

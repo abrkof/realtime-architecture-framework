@@ -1,0 +1,16 @@
+<? if ($view->data) : ?>
+<? if ($view->requestType == \RTA\App::SYNCHRONOUS) : ?>
+<div class="widget notifications">
+    <h2>Notifications Demo</h2>
+    <ul>
+<? foreach ($view->data as $item) { ?>
+        <li><?= $item ?></li>
+<? } ?>
+    </ul>
+</div>
+<? else: ?>
+<? foreach ($view->data as $item) { ?>
+        <li><?= $item ?></li>
+<? } ?>
+<? endif; ?>
+<? endif; ?>
