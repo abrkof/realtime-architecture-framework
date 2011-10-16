@@ -37,7 +37,7 @@ require "bootstrap.php";
             </aside>
             <article>
                 <p>
-                    This little application is meant to demonstrate real-time architecture pattern. Sidebar contains two widgets which emulate different sorts of modules. One represents notification feed, which updates as new messages arrive. Second updates the diagram as soon as the related module has update. The console below shows server-sent events.
+                    This little application is meant to demonstrate <a href="http://dsheiko.com/weblog/real-time-web-application-architecture">real-time architecture framework</a>. Sidebar contains two widgets which emulate different sorts of modules. One represents notification feed, which updates as new messages arrive. Second updates the diagram as soon as the related module has update. The console below shows server-sent events.
                 </p>
                <h2>Console</h2>
                <div class="console">
